@@ -44,6 +44,12 @@ body {
     color: white;
 }
 
+.btn-white {
+    background-color: white;
+    color: black;
+    border: .5px solid black;
+}
+
 /* HEADER */
 
 header {
@@ -194,4 +200,90 @@ header .jumbo img {
 
 .piano-verticale .descrizione-piano .descrizione p {
     margin-top: 2.5rem;
+}
+
+/* PARTENER */
+
+.container-small .partner {
+    margin: 6rem 0 6rem 0;
+    display: flex;
+}
+
+.container-small .partner img {
+    min-width: 0;
+    flex: 0 0 60%;
+}
+
+.container-small .partner .container {
+    padding: 0 2rem;
+}
+
+.container-small .partner .container h3 {
+    padding: 3rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+.container-small .partner .container .btn {
+    margin-top: 2rem;
+}
+
+/* sezione operazioni Business */
+
+.container-small .container-operazioni-business {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-small .container-operazioni-business .operazioni-business {
+    margin: 3rem 1.5rem 3rem 0;
+    width: calc(100% / 3 - 2rem);
+}
+
+.container-small .container-operazioni-business .operazioni-business h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 3rem 0;
+}
+
+.container-small .container-operazioni-business .operazioni-business img {
+    max-width: 100%;
+}
+
+/* sezione aziende */
+
+.aziende {
+    background-color: #B5D0E7;
+}
+
+.aziende .container-aziende {
+    display: flex;
+}
+
+.aziende .container-aziende .box-azienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 2);
+    height: calc(100vw / 6);
+}
+
+.container-dx, .container-center, .container-sx {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.aziende .container-aziende .container-center {
+    padding: 3rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.aziende .container-aziende img {
+    color: white;
+    flex: 0 0 50%;
+    min-width: 0;
+}
+
+.aziende .container-aziende p {
+    font-size: .8rem;
 }
