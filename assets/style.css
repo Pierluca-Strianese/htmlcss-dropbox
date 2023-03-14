@@ -43,12 +43,17 @@ body {
 
 /* HEADER */
 
+header {
+    background-color: #B5D0E7;;
+}
+
 nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 80px;
+    background-color: white;
 }
 
 .main-menu {
@@ -75,6 +80,35 @@ nav {
 
 header h1 {
     font-size: 5rem;
+    padding: 4rem 0;
+}
+
+header .contents {
+    display: flex;
+    align-items: flex-start;
+}
+
+header .jumbo .text {
+    flex: 0 0 30%;
+}
+
+header .jumbo .text p {
+    margin-bottom: 2rem;
+}
+
+header .jumbo .text .btn-primary {
+    margin-bottom: 2rem;
+}
+
+header .jumbo .text .arrow-down {
+    color: #000000;
+    font-size: 4rem;
+}
+
+header .jumbo img {
+    flex: 0 0 70%;
+    min-width: 0;
+    margin-bottom: -75px;
 }
 
 /* MAIN */
@@ -96,5 +130,35 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.piani-card .piano {
+    border: 1px solid black;
+}
+
+.piano .tipo-piano {
+    padding: .5rem 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.piano .descrizione-piano {
+    padding: 2rem 2.5rem;
+}
+
+.descrizione-piano .tipo-prezzo {
+    padding: 1.5rem 0;
+}
+
+.descrizione-piano .descrizione-funzioni {
+    padding: 1.5rem 0;
+}
+
+.descrizione-piano .descrizione-funzioni div {
+    padding: .5rem 0;
+}
+
+.descrizione-piano .prova-gratis {
+    padding: .5rem 0;
 }
 
