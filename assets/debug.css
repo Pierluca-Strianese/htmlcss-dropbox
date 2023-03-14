@@ -8,13 +8,13 @@ nav {
 }
 
 .piano {
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 955px;
     width: calc(100% / 3 - 1.5rem);
 }
 
 .piano-verticale {
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 255px;
     width: 1000px;
 }
