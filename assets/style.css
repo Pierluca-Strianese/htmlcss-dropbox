@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+--primary-color: #0061FF;
+--text-color: #000000;
+}
+
+html {
+    font-family: 'Noto Sans Lao', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+body {
+    margin-top: 80px;
+}
+
+.container-small {
+    max-width: 1040px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+.container-big {
+    max-width: 1240px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em .7em;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* HEADER */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-end: .5rem;
+}
+
+.menu-small {
+    display: flex;
+}
+
+.menu-small > div {
+    display: flex;
+}
+
+.menu-small a {
+    display: flex;
+    align-items: center;
+    padding-inline: 1em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+/* MAIN */
+
+.piano, .piano-verticale {
+    margin: 1.5rem 0;
+}
+
+.container-small h2 {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.radio-button {
+    padding: 1.5rem 0;
+}
+
+.piani-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+

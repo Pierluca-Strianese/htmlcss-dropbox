@@ -1,0 +1,25 @@
+nav {
+    background-color: bisque;
+}
+
+.jumbo {
+    background-color: #B5D0E7;
+    height: 500px;
+}
+
+.pagina {
+    /* background-color: greenyellow; */
+    height: 1650px;
+}
+
+.piano {
+    background-color: bisque;
+    height: 955px;
+    width: calc(100% / 3 - 1.5rem);
+}
+
+.piano-verticale {
+    background-color: bisque;
+    height: 255px;
+    width: 1000px;
+}
