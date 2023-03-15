@@ -4,13 +4,13 @@ nav {
 
 .pagina {
     /* background-color: greenyellow; */
-    height: 1650px;
+    /* height: 1650px; */
 }
 
 .piano {
     /* background-color: bisque; */
-    height: 955px;
-    width: calc(100% / 3 - 1.5rem);
+    /* height: 955px;
+    width: calc(100% / 3 - 100px); */
 }
 
 .piano-verticale {
