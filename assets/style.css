@@ -41,7 +41,7 @@ footer {
     display: inline-block;
     text-align: center;
     font-size: .9rem;
-    padding: .7em .7em;
+    padding: .6em 1em;
     white-space: nowrap;
     height: fit-content;
 }
@@ -288,11 +288,15 @@ header .jumbo img {
 
 .container-small .container-operazioni-business .operazioni-business h3 {
     font-size: 1.5rem;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 2rem 0;
 }
 
 .container-small .container-operazioni-business .operazioni-business img {
     max-width: 100%;
+}
+
+.container-h2 {
+    width: 60%;
 }
 
 /* sezione aziende */
@@ -318,6 +322,10 @@ header .jumbo img {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
+}
+
+.container-center {
+    background-color: #FFFF;
 }
 
 .aziende .container-aziende .container-center {
@@ -352,6 +360,11 @@ header .jumbo img {
 
 /* sezione domande frequenti */
 
+.domande-frequenti h2 {
+    font-size: 2rem;
+    padding: 7rem 0 3rem 0;
+}
+
 .domande-frequenti .domanda {
     display: flex;
     justify-content: space-between;
@@ -375,14 +388,22 @@ footer .navbar-footer {
     justify-content: space-between;
 }
 
+footer .top-link {
+    font-weight: bold;
+}
+
 footer ul{
     list-style: none;
-    margin: 2rem 0;
+    margin: 1.5rem 0 5rem 0;
     font-size: .8rem;
 }
 
+footer li{
+    line-height: 1.6rem;
+}
+
 footer .lingua {
-    padding: 2rem 1rem 1rem 0 ;
+    padding: 1.5rem 1rem 3rem 0 ;
     font-size: 0.8rem;
     border-top: 1px solid white;
     width: max-content;
