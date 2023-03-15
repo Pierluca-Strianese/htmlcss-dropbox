@@ -66,6 +66,10 @@ a.btn {
     text-decoration: none;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* HEADER */
 
 header {
@@ -118,6 +122,7 @@ header .jumbo .text {
 }
 
 header .jumbo .text p {
+    font-size: .9rem;
     margin-bottom: 2rem;
 }
 
@@ -126,14 +131,15 @@ header .jumbo .text .btn-primary {
 }
 
 header .jumbo .text .arrow-down {
+    margin: 1rem 0 .5rem 1rem;
     color: #000000;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 header .jumbo img {
     flex: 0 0 70%;
     min-width: 0;
-    margin-bottom: -75px;
+    margin-bottom: -125px;
 }
 
 /* MAIN */
@@ -179,6 +185,7 @@ header .jumbo img {
 .piano li{
     display: flex;
     padding-top: 1rem;
+    font-size: .8rem;
 }
 
 .tipo-piano {
@@ -189,6 +196,10 @@ header .jumbo img {
 
 .descrizione-piano {
     padding: 2rem 1.5rem;
+}
+
+.descrizione-piano h3 {
+    font-size: 1.5rem;
 }
 
 .descrizione-piano li::before {
@@ -208,6 +219,10 @@ header .jumbo img {
     padding: 1rem 0;
 }
 
+.tipo-prezzo .pagamento {
+    font-size: .8rem;
+}
+
 .descrizione-piano .descrizione-funzioni div {
     padding: .5rem 0;
 }
@@ -221,6 +236,10 @@ header .jumbo img {
     width: 100%;
 }
 
+.descrizione-piano .acquista {
+    font-size: .8rem; 
+}
+
 .descrizione-piano .prova-gratis .acquista::after{
     content: '';
     display: block;
@@ -230,6 +249,7 @@ header .jumbo img {
 }
 
 .descrizione-piano .punti-salienti {
+    font-size: .9rem;
     padding-top: 1.5rem;
 }
 
@@ -250,6 +270,7 @@ header .jumbo img {
 }
 
 .piano-verticale .descrizione-piano .descrizione p {
+    font-size: .9rem;
     margin-top: 2.5rem;
 }
 
