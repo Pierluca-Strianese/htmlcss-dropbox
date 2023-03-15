@@ -12,7 +12,7 @@
 html {
     font-family: 'Noto Sans Lao', Helvetica, Arial, sans-serif;
 	line-height: 1.4;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 body {
@@ -141,17 +141,16 @@ header .jumbo .text {
     flex: 0 0 30%;
 }
 
-header .jumbo .text p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-}
-
 header .jumbo .text .btn-primary {
     margin-bottom: 2rem;
 }
 
+header .jumbo .text p {
+    padding-bottom: 2rem;
+}
+
 header .jumbo .text .arrow-down {
-    margin: 1rem 0 .5rem 1rem;
+    padding: 1rem 0 .5rem 1rem;
     color: #000000;
     font-size: 3rem;
 }
@@ -293,12 +292,12 @@ header .jumbo img {
 }
 
 .piano-verticale .descrizione-piano .descrizione h3 {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .piano-verticale .descrizione-piano .descrizione p {
     font-size: .9rem;
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .piano-verticale .descrizione-piano .btn {
@@ -345,7 +344,7 @@ header .jumbo img {
 
 .container-operazioni-business .operazioni-business h3 {
     font-size: 1.5rem;
-    margin: 1rem 0 2rem 0;
+    padding: 1rem 0 2rem 0;
 }
 
 .container-operazioni-business .operazioni-business img {
