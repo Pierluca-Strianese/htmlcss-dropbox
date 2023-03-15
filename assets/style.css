@@ -44,10 +44,15 @@ body {
     color: white;
 }
 
-.btn-white {
+.btn-trasparente {
     background-color: white;
     color: black;
     border: .5px solid black;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
 }
 
 /* HEADER */
@@ -256,6 +261,7 @@ header .jumbo img {
 
 .aziende .container-aziende {
     display: flex;
+    margin-top: 8rem;
 }
 
 .aziende .container-aziende .box-azienda {
@@ -286,4 +292,29 @@ header .jumbo img {
 
 .aziende .container-aziende p {
     font-size: .8rem;
+}
+
+.aziende .container-small {
+    display: flex;
+}
+
+/* sezione domande frequenti */
+
+.domande-frequenti .domanda {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-top: 0.5px solid black;
+}
+
+.domande-frequenti .domanda i {
+    padding-right: 3rem;
+    font-size: .6rem;
+}
+
+/* footer */
+
+.footer .container-big {
+    background-color: #000000;
+    
 }
