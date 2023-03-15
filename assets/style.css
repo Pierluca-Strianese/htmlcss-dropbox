@@ -12,6 +12,7 @@
 html {
     font-family: 'Noto Sans Lao', Helvetica, Arial, sans-serif;
 	line-height: 1.4;
+    font-size: 14px;
 }
 
 body {
@@ -127,7 +128,7 @@ nav {
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding: 4rem 0;
 }
 
@@ -141,7 +142,7 @@ header .jumbo .text {
 }
 
 header .jumbo .text p {
-    font-size: .9rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -152,13 +153,13 @@ header .jumbo .text .btn-primary {
 header .jumbo .text .arrow-down {
     margin: 1rem 0 .5rem 1rem;
     color: #000000;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 header .jumbo img {
     flex: 0 0 70%;
     min-width: 0;
-    margin-bottom: -125px;
+    margin-bottom: -75px;
 }
 
 .main-menu .menu-small a:hover {
@@ -176,7 +177,7 @@ header .jumbo img {
 }
 
 .piano, .piano-verticale {
-    border: 1px solid black;
+    border: 1.5px solid rgb(200, 200, 200);
     margin: 1.5rem 0;
     gap: 50px;
 }
@@ -191,7 +192,7 @@ header .jumbo img {
 
 .container-small h2 {
     font-size: 2rem;
-    padding: 2rem 0;
+    padding: 6rem 0 2rem 0;
 }
 
 .piani-card {
@@ -202,7 +203,6 @@ header .jumbo img {
 
 .piano ul {
     list-style: none;
-    /* list-style-position: inside; */
 }
 
 .piano li{
@@ -218,7 +218,7 @@ header .jumbo img {
 .tipo-piano {
     padding: .5rem 0;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 .descrizione-piano {
@@ -301,6 +301,11 @@ header .jumbo img {
     margin-top: 2.5rem;
 }
 
+.piano-verticale .descrizione-piano .btn {
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
 /* PARTENER */
 
 .container-small .partner {
@@ -327,23 +332,23 @@ header .jumbo img {
 
 /* sezione operazioni Business */
 
-.container-small .container-operazioni-business {
+.container-operazioni-business {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.container-small .container-operazioni-business .operazioni-business {
+.container-operazioni-business .operazioni-business {
     margin: 3rem 1.5rem 3rem 0;
     width: calc(100% / 3 - 2rem);
 }
 
-.container-small .container-operazioni-business .operazioni-business h3 {
+.container-operazioni-business .operazioni-business h3 {
     font-size: 1.5rem;
     margin: 1rem 0 2rem 0;
 }
 
-.container-small .container-operazioni-business .operazioni-business img {
+.container-operazioni-business .operazioni-business img {
     max-width: 100%;
 }
 
@@ -378,6 +383,7 @@ header .jumbo img {
 
 .container-center {
     background-color: #FFFF;
+    color: #797979;
 }
 
 .aziende .container-aziende .container-center {
@@ -407,14 +413,19 @@ header .jumbo img {
 }
 
 .aziende .container-small h2 {
+    color: #5D2833;
     padding: 7rem 0;
 }
 
 /* sezione domande frequenti */
 
+.domande-frequenti {
+    padding: 7rem 0 8rem 0;
+}
+
 .domande-frequenti h2 {
-    font-size: 2rem;
-    padding: 7rem 0 3rem 0;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
 }
 
 .domande-frequenti .domanda {
@@ -441,7 +452,7 @@ footer .navbar-footer {
 }
 
 footer .top-link {
-    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 footer ul{
@@ -459,6 +470,10 @@ footer .lingua {
     font-size: 0.8rem;
     border-top: 1px solid white;
     width: max-content;
+}
+
+footer .lingua {
+    color: #7b7b7b;
 }
 
 footer .lingua i {
