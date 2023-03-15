@@ -62,6 +62,10 @@ footer {
     color: black;
 }
 
+a.btn {
+    text-decoration: none;
+}
+
 /* HEADER */
 
 header {
