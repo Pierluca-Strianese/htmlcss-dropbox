@@ -107,6 +107,7 @@ nav {
 
 .menu-small {
     display: flex;
+    align-items: center;
 }
 
 .menu-small > div {
@@ -125,7 +126,17 @@ nav {
     padding-inline: 1em;
     color: var(--text-color);
     text-decoration: none;
+    height: 100%;
 }
+
+/* .menu-small .btn-bar {
+    display: flex;
+    align-items: center;
+    padding-inline: 1em;
+    color: #FFFF;
+    text-decoration: none;
+    height: fit-content;
+} */
 
 header h1 {
     font-size: 4.5rem;
