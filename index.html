@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <header>
@@ -66,9 +66,13 @@
                 <!-- sezione piani  -->
 
                 <h2> Trova il piano che fa per te</h2>
-                <div class="radio-button">
-                    <input type="radio" name="fatturazione-mensile" value="mensile" /> fatturazione mensile
-                    <input type="radio" name="fatturazione-annuale" value="annuale" /> fatturazione annuale
+                <div class="fatturazione">
+                    <div class="radio-button">
+                        <input type="radio" name="fatturazione-mensile" value="mensile"> fatturazione mensile
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" name="fatturazione-annuale" value="annuale"> fatturazione annuale
+                    </div>
                 </div>
                 <div class="piani-card">
                     <div class="piano">
@@ -85,15 +89,12 @@
                             <div>
                                 <ul>
                                     <li>
-                                        <i class="fa-solid fa-user"></i> 
                                         1 utente
                                     </li>
                                     <li>
-                                        <i class="fa-solid fa-folder"></i>
                                         5TBdi spazio di archiviazione sicuro
                                     </li>
                                     <li>
-                                        <i class="fa-sharp fa-solid fa-share-nodes"></i>
                                         Funzioni di produttività premium e condivisione file semplice e sicura
                                     </li>
                                 </ul>
@@ -233,10 +234,12 @@
             </div>
             <div class="aziende">
                 <div class="container-small">
-                    <div>
+                    <div class="container">
                         <h2>Porta Dropbox Business nella tua azienda</h2>
                     </div>
+                    <div class="container-btn">
                     <div class="btn btn-white"> Inizia la tua prova gratuita </div>
+                    </div>
                 </div>
             </div>
 
@@ -265,105 +268,73 @@
 
     <footer>
         <div class="container-big">
-            <table>
-                <thead>
-                    <tr>
-                        <th> Dropbox </th>
-                        <th> Prodotti </th>
-                        <th> Azienda </th>
-                        <th> Supporto </th>
-                        <th> Community </th>
-                    </tr>
-                </thead>
-                    
-                <tbody>
-                    <tr>
-                        <td>
-                            Applicazione Desktop
-                        </td>
-                        <td>
-                            Perchè Dropbox
-                        </td>
-                        <td>
-                            Piani
-                        </td>
-                        <td>
-                            Sicurezza
-                        </td>
-                        <td>
-                            Funzioni
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Applicazione Desktop
-                        </td>
-                        <td>
-                            Perchè Dropbox
-                        </td>
-                        <td>
-                            Piani
-                        </td>
-                        <td>
-                            Sicurezza
-                        </td>
-                        <td>
-                            Funzioni
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Applicazione Desktop
-                        </td>
-                        <td>
-                            Perchè Dropbox
-                        </td>
-                        <td>
-                            Piani
-                        </td>
-                        <td>
-                            Sicurezza
-                        </td>
-                        <td>
-                            Funzioni
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Applicazione Desktop
-                        </td>
-                        <td>
-                            Perchè Dropbox
-                        </td>
-                        <td>
-                            Piani
-                        </td>
-                        <td>
-                            Sicurezza
-                        </td>
-                        <td>
-                            Funzioni
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Applicazione Desktop
-                        </td>
-                        <td>
-                            Perchè Dropbox
-                        </td>
-                        <td>
-                            Piani
-                        </td>
-                        <td>
-                            Sicurezza
-                        </td>
-                        <td>
-                            Funzioni
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="navbar-footer">
+                <div>
+                    <div>Dropbox</div>
+                    <div>
+                        <ul>
+                            <li>Applicazione Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>Prodotti</div>
+                    <div>
+                        <ul>
+                            <li>Applicazione Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>Azienda</div>
+                    <div>
+                        <ul>
+                            <li>Applicazione Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>Supporto</div>
+                    <div>
+                        <ul>
+                            <li>Applicazione Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>Community</div>
+                    <div>
+                        <ul>
+                            <li>Applicazione Desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="lingua">
+                <i class="fa-solid fa-earth-americas"></i>
+                Italiano
+                <i class="fa-solid fa-caret-up"></i>
+            </div>
         </div>
     </footer>
 

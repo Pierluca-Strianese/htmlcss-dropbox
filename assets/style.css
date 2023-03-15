@@ -18,16 +18,23 @@ body {
     margin-top: 80px;
 }
 
+footer {
+    color: #FFFF;
+    background-color: #000000;
+}
+
+.pagina {
+    padding-top: 5rem;
+}
+
 .container-small {
-    max-width: 1040px;
+    max-width: 940px;
     margin-inline: auto;
-    padding: 20px;
 }
 
 .container-big {
-    max-width: 1240px;
+    max-width: 1040px;
     margin-inline: auto;
-    padding: 20px;
 }
 
 .btn {
@@ -93,7 +100,7 @@ nav {
 }
 
 header h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 4rem 0;
 }
 
@@ -127,6 +134,14 @@ header .jumbo img {
 
 /* MAIN */
 
+.container-small .fatturazione {
+    display: flex;
+}
+
+.container-small .radio-button {
+    padding: 2rem 2rem 2rem 0;
+}
+
 .piano, .piano-verticale {
     border: 1px solid black;
     margin: 1.5rem 0;
@@ -146,21 +161,19 @@ header .jumbo img {
     padding: 2rem 0;
 }
 
-.radio-button {
-    padding: 1.5rem 0;
-}
-
 .piani-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.piano ul{
-    margin: 1.5rem 1.5rem;
+.piano ul {
+    list-style: none;
+    list-style-position: inside;
 }
 
 .piano li{
+    display: flex;
     padding-top: 1rem;
 }
 
@@ -172,6 +185,13 @@ header .jumbo img {
 
 .descrizione-piano {
     padding: 2rem 1.5rem;
+}
+
+.descrizione-piano li::before {
+    content: "\f007";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-inline-end: .5em;
 }
 
 .piano-verticale .descrizione-piano {
@@ -193,15 +213,28 @@ header .jumbo img {
 }
 
 .descrizione-piano .prova-gratis .btn{
+    margin: 2rem 0;
     width: 100%;
 }
 
-.descrizione-piano .prova-gratis .acquista{
-    padding: 1.5rem 0;
+.descrizione-piano .prova-gratis .acquista::after{
+    content: '';
+    display: block;
+    margin-top: 1.5rem;
+    width: 30%;
+    border-top: 1px solid black;
 }
 
 .descrizione-piano .punti-salienti {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
+}
+
+.descrizione-piano .punti-salienti li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    color: var(--primary-color);
+    font-weight: 900;
+    margin-inline-end: .5em;
 }
 
 .piano-verticale .descrizione-piano .descrizione {
@@ -299,12 +332,22 @@ header .jumbo img {
     min-width: 0;
 }
 
-.aziende .container-aziende p {
-    font-size: .8rem;
-}
-
 .aziende .container-small {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aziende .container-small .container {
+    width: 50%;
+}
+
+.aziende .container-small .btn {
+    padding: .5rem 2rem;
+}
+
+.aziende .container-small h2 {
+    padding: 7rem 0;
 }
 
 /* sezione domande frequenti */
@@ -323,7 +366,28 @@ header .jumbo img {
 
 /* footer */
 
-.footer {
-    background-color: #000000;
-    height: 200px;
+footer .container-big {
+    padding-top: 4rem;
+}
+
+footer .navbar-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+    margin: 2rem 0;
+    font-size: .8rem;
+}
+
+footer .lingua {
+    padding: 2rem 1rem 1rem 0 ;
+    font-size: 0.8rem;
+    border-top: 1px solid white;
+    width: max-content;
+}
+
+footer .lingua i {
+    padding-right: .5rem;
 }
